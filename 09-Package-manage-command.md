@@ -66,3 +66,31 @@ sudo dpkg -i package.deb
 List installed packages:
 
 dpkg -l
+
+# Q1. What is the difference between apt update and apt upgrade?
+apt update refreshes the package index.
+
+apt upgrade installs the latest versions of installed packages.
+
+# Q2. What is the difference between apt remove and apt purge?
+apt remove removes the package but keeps configuration files.
+
+apt purge removes both the package and its configuration files.
+
+# Q3. What is apt autoremove used for?
+It removes unused dependencies that are no longer required by any installed package.
+
+# Q4. What is the purpose of dpkg?
+dpkg is used to install, remove, and manage local .deb packages.
+
+# Q5. How do you install a package in Kali Linux?
+sudo apt install <package-name>
+
+# Example:
+sudo apt install htop
+
+# Q6. How do you search for a package?
+apt search <package-name>
+
+# Q7. Why should you run apt update before apt install?
+To ensure your system has the latest package information from the repositories before installing software.

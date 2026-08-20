@@ -322,49 +322,49 @@ This script:
 4. Displays its file type.
 
 # 🎤 Interview Questions
-1. What is a Bash function?
+## 1. What is a Bash function?
 
 Answer:
 
 A Bash function is a reusable block of commands that can be called multiple times within a script.
 
-# 2. What does $1 represent?
+## 2. What does $1 represent?
 
 Answer:
 
 $1 represents the first command-line argument passed to a script or function.
 
-# 3. What does $# represent?
+## 3. What does $# represent?
 
 Answer:
 
 $# represents the number of command-line arguments passed to the script.
 
-# 4. What does $@ represent?
+## 4. What does $@ represent?
 
 Answer:
 
 $@ represents all command-line arguments individually.
 
-# 5. What does $0 represent?
+## 5. What does $0 represent?
 
 Answer:
 
 $0 represents the name or path used to execute the script.
 
-# 6. Why is input validation important?
+## 6. Why is input validation important?
 
 Answer:
 
 Input validation ensures that a script receives expected and valid input before performing an operation. This helps prevent errors and unexpected behavior.
 
-# 7. What does return 0 mean?
+## 7. What does return 0 mean?
 
 Answer:
 
 It normally indicates successful execution of a function.
 
-# 8. What does exit 1 do?
+## 8. What does exit 1 do?
 
 Answer:
 
